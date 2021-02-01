@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #58646d;
+}
+
+#success-modal{
+    position: fixed;
+    top: 30vh;
+    left: 0;    
+    z-index: 99999;
+    height: 70%;
+    width: 100%;
+    background-color: #f0f0f0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+#success-modalcontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 80%;
+    padding: 20px;
+}
+
+.modal-upper{
+    border-bottom: 1px gray solid;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.fa-check-circle{
+    color: green;
+    margin-top: -65px;
+    margin-right: 5px;
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.modal-header{
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 0px;
+    color: #36434d;
+}
+
+.modal-text {
+    font-size: 16px;
+    color: #9d9d9d;
+    font-weight: 600;
+}
+}
+
+.modal-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+
+#btn{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+    font-size: 16px;
+    border: 2px solid#36434d;
+
+}
+
+.btn--dark{
+    background-color: #1e2c37;
+    color: #ffffff;
+}
+
+.btn--light{
+    color: #36434d;
+}
+}
+
+@media only screen and (min-width: 768px){
+
+    .modal-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #success-modal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40em;
+        height: 21em;
+        margin: auto;
+        left: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #success-modal .fa-check-circle{
+        margin-top: -35px;
+        margin-right: 5px;
+    }
+
+    .modal-upper{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .header-container{
+        margin-top: 50px;
+        ;
+    }
+
+    .modal-text{
+        margin-left: 25px;
+    }
+
+    .modal-lower{
+        display: flex;
+        flex-direction: row;
+        width: 65%;
+        margin-bottom: 2.5em
+    }
+    
+    
+    
+
+    
+
+    
+    
+
+    
+
+    }
+
+    
+    
