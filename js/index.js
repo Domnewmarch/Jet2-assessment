@@ -7,7 +7,7 @@ window.onload = function () {
 
 function modalOpen () {
     document.getElementById("modal-open").onclick = function () {
-        document.getElementById('success-modal').style.display = "block"
+        document.getElementById('success-modal').style.display = "flex"
     };
 }
 
