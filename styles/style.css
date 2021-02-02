@@ -29,19 +29,20 @@ body {
 
 #success-modal {
   position: fixed;
-  top: 30vh;
+  top: 25vh;
   left: 0;
   z-index: 99999;
-  height: 75%;
+  height: 70%;
   width: 100%;
   background-color: #f0f0f0;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  margin-bottom: 5em;
 }
 
 #success-modal #success-modalcontent {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
