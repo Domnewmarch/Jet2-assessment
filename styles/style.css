@@ -32,7 +32,7 @@ body {
   top: 30vh;
   left: 0;
   z-index: 99999;
-  height: 70%;
+  height: 75%;
   width: 100%;
   background-color: #f0f0f0;
   font-family: 'Open Sans', sans-serif;
@@ -105,7 +105,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .modal-lower #btn {
@@ -171,7 +171,6 @@ body {
     left: auto;
     padding-left: 1em;
     padding-right: 1em;
-    margin-bottom: 20px;
   }
   #success-modal .fa-check-circle {
     margin-top: -35px;
@@ -208,7 +207,7 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
     width: 65%;
-    margin-bottom: 2.6em;
+    margin-bottom: 2.5em;
   }
 }
 /*# sourceMappingURL=style.css.map */
