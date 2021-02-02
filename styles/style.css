@@ -6,7 +6,7 @@ body {
 }
 
 #modal-open {
-  width: 90%;
+  width: 30em;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
@@ -16,6 +16,15 @@ body {
   font-style: italic;
   font-size: 16px;
   border: 2px solid #36434d;
+}
+
+.modal-open-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #success-modal {
