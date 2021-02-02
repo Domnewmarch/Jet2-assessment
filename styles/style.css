@@ -171,6 +171,7 @@ body {
     left: auto;
     padding-left: 1em;
     padding-right: 1em;
+    margin-bottom: 20px;
   }
   #success-modal .fa-check-circle {
     margin-top: -35px;
