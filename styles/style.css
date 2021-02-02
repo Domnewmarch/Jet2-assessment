@@ -5,6 +5,19 @@ body {
   background-color: #58646d;
 }
 
+#modal-open {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 16px;
+  border: 2px solid #36434d;
+}
+
 #success-modal {
   position: fixed;
   top: 30vh;
