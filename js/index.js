@@ -1,3 +1,7 @@
+window.onload = function() {
+    document.getElementById('success-modal').style.display = 'none';
+}
+
 function succcessModal () {
     document.getElementById("btn").onclick = function () {
         document.getElementById('success-modal').style.display = "none"
