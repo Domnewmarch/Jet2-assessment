@@ -1,7 +1,10 @@
-window.onload = function () {
-    document.getElementById('btn').onclick = function () {
+function succcessModal () {
+    document.getElementById("btn").onclick = function () {
         document.getElementById('success-modal').style.display = "none"
-        
+    };
+
+    document.getElementById("btn-2").onclick = function () {
+        document.getElementById('success-modal').style.display = "none"
     };
 };
 
@@ -11,3 +14,4 @@ function modalOpen () {
     };
 }
 
+succcessModal()
