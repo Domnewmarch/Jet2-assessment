@@ -1,4 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+#btn {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 16px;
+  border: 2px solid #36434d;
+}
+
+#btn-2 {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 16px;
+  border: 2px solid #36434d;
+}
+
+.btn--dark {
+  background-color: #1e2c37;
+  color: #ffffff;
+}
+
+.btn--light {
+  color: #36434d;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -108,41 +143,6 @@ body {
   margin-bottom: 10px;
 }
 
-.modal-lower #btn {
-  width: 90%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 5px;
-  margin: 5px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
-  font-style: italic;
-  font-size: 16px;
-  border: 2px solid #36434d;
-}
-
-.modal-lower #btn-2 {
-  width: 90%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 5px;
-  margin: 5px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
-  font-style: italic;
-  font-size: 16px;
-  border: 2px solid #36434d;
-}
-
-.modal-lower .btn--dark {
-  background-color: #1e2c37;
-  color: #ffffff;
-}
-
-.modal-lower .btn--light {
-  color: #36434d;
-}
-
 @media only screen and (min-width: 768px) {
   .modal-container {
     display: -webkit-box;
@@ -176,22 +176,6 @@ body {
   #success-modal .fa-check-circle {
     margin-top: -35px;
     margin-right: 5px;
-  }
-  .modal-upper {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: auto;
   }
   .header-container {
     margin-top: 50px;

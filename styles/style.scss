@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import './button';
+@import './variables';
 
 
 body {
@@ -67,13 +69,11 @@ body {
     padding-right: 5px;
 }
 
-
-
 .modal-header{
     font-weight: bold;
     font-size: 22px;
     padding-bottom: 0px;
-    color: #36434d;
+    color: $mainColour;
 }
 
 .modal-text {
@@ -91,43 +91,6 @@ body {
     margin: auto;
     margin-bottom: 10px;
 
-
-#btn{
-    width: 90%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    margin: 5px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:bolder;
-    font-style: italic;
-    font-size: 16px;
-    border: 2px solid#36434d;
-
-}
-
-#btn-2{
-    width: 90%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    margin: 5px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:bolder;
-    font-style: italic;
-    font-size: 16px;
-    border: 2px solid#36434d;
-
-}
-
-.btn--dark{
-    background-color: #1e2c37;
-    color: #ffffff;
-}
-
-.btn--light{
-    color: #36434d;
-}
 }
 
 @media only screen and (min-width: 768px){
@@ -156,13 +119,7 @@ body {
         margin-right: 5px;
     }
 
-    .modal-upper{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: auto;
-    }
+    
 
     .header-container{
         margin-top: 50px;
@@ -180,17 +137,8 @@ body {
         margin-bottom: 2.5em
     }
     
-    
-    
 
-    
-
-    
-    
-
-    
-
-    }
+}
 
     
     
